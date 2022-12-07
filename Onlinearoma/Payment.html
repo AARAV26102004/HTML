@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>Aroma</title>
+<link rel="icon" href="aroma logo 2.png">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<br>
+<br>
+<style>
+	h1{
+		font-family:Agency FB;
+		font-size:60;
+		}
+	h2{ 
+		font-family:Berlin Sans FB;
+		font-size:30;
+		text-align:left;
+		font-variant:small-caps;
+		
+	}
+
+body  {
+		background-image:url(payment\ final.jpg);
+		background-size:1600px 750px;
+		background-attachment:fixed;
+	}
+.button      {
+   	    background-color:skyblue;
+	    border-color:black ;
+		border-style:solid;
+	    border-width:2px;
+ 	 	color: blue;
+  		padding: 10px 20px;
+  		text-align: center;
+  		font-size: 16px;	
+		border-radius:16px;	  
+	}
+</style>
+
+</head>
+<body style="text-align:center;">
+	<img src="aroma logo 2.png" width="200px" height="200px"align="left">
+	<div class="container">
+ 	<div class="row col-md-6 col-md-offset-0">
+ 	<div class="panel panel-primary"> <div class="panel-heading text-center">
+	<h1>PAYMENT PAGE</h1> </div>
+	<div class="panel-body">
+	<div class="form-group">
+	</div>
+
+	<h2>Payment via upi</h2>
+
+	<label>NAME</label>
+	<input type="text">
+<br>
+</br>
+	<label>UPI ID</label>
+	<input type="email"><br>
+
+
+<br>
+</br>
+
+	<label>UPI APP</label><br>
+	<input type="radio" name="bank">GOOGLE PAY<br>
+	<input type="radio" name="bank">PHONE PE<br>
+	<input type="radio" name="bank">PAYTM<br>
+	<input type="radio" name="bank">OTHER<br>
+<br>
+</br>
+
+	<label>BANK</label>
+<select>
+	<option value="0">CANARA BANK</option>
+	<option value="1"> AXIS BANK</option>
+	<option value="2">STATE BANK</option>
+	<option value="3">OTHERS</option>
+</select>
+<br>
+</br>
+	<a href="thanks.html" class="button" >PROCEED </a>
+	
+
+<h2>Pay using card</h2>
+
+	<label>CARD TYPE</label><br>
+	<input type="radio" name="card">CREDIT CARD<br>
+	<input type="radio" name="card">DEBIT CARD<br>
+<br>
+</br>
+		<label>CARD NUMBER</label>
+		<input type="text"  name="number" maxlength="16"   min="1"  max="9999999999999999" step="1" placeholder="XXXX-XXXX-XXXX-XXXX " pattern="[0-9] {16}" required/>
+<br>
+</br>
+		<label>FROM</label>
+		<input type="month">
+<br>
+</br>
+		<label>EXPIRY</label>
+		<input type="month">
+<br>
+</br>
+	<a href="thanks.html" class="button" >PROCEED</a>
+
+
+<h2>Cash on delivery</h2>
+
+	<input type="radio">CASH ON DELIVERY
+<br>
+</br>
+	<a href="thanks.html" class="button" >PROCEED</a>
+
+<div class="panel-footer text-right">
+  	 <small>&copy; Aroma</small>
+</div>         
+</body>
+</html>
